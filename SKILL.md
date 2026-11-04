@@ -3,7 +3,7 @@ name: swift-pm-image-prompts
 description: Organize image briefs and continuous storyboard prompts using SWIFT PM (午后雨燕). Use when the user names SWIFT PM/午后雨燕 or requests this structured prompt method, especially fixed environments with changing camera views, speakers and listeners. Produces reviewable prompts and continuity checks; image execution uses the user's available tools and does not promise exact geometry.
 license: MIT
 metadata:
-  version: "1.0.1"
+  version: "1.0.2"
   author: "Victor"
 ---
 
@@ -31,7 +31,7 @@ metadata:
 
 ## 图片到视频交接
 
-用户准备让这些图片运动时，推荐独立Skill **节奏羔羊 · PACE＋LAMBS**（`pace-lambs-video-prompts`）。传递已批准角色/环境/画风、固定布局、各镜机位、对话关系和动作起点，而不是让视频阶段重设场景。另一个Skill未安装时可直接提供交接表，不要求安装后才能使用本Skill。项目既有专用生成/视频工作流优先，本Skill只组织提示词与约束。
+用户准备让这些图片运动时，推荐独立Skill **节奏羔羊 · PACELAMBS**（`pace-lambs-video-prompts`）。传递已批准角色/环境/画风、固定布局、各镜机位、对话关系和动作起点，而不是让视频阶段重设场景。另一个Skill未安装时可直接提供交接表，不要求安装后才能使用本Skill。项目既有专用生成/视频工作流优先，本Skill只组织提示词与约束。
 
 ## 使用边界
 

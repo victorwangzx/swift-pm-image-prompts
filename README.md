@@ -1,6 +1,6 @@
 # 午后雨燕 · SWIFT PM
 
-版本：**v1.0.1**。作者：Victor｜工具支持：Codex。
+版本：**v1.0.2**。作者：Victor｜工具支持：Codex。
 
 独立的提示词与连续性设计Skill，可单独安装。保留方法名称便于人与助手协作。根据用户提供的模式定义改编；不宣称方法名称或原始理念由本包首次提出，也不把示意质量比例当作实测数据。
 
@@ -8,7 +8,7 @@
 
 [下载最新安装包](https://github.com/victorwangzx/swift-pm-image-prompts/releases/latest) · [浏览源码](https://github.com/victorwangzx/swift-pm-image-prompts)
 
-解压`swift-pm-image-prompts_v1.0.1.zip`，把顶层`swift-pm-image-prompts`文件夹放到你的客户端Skill目录。Codex通常使用`~/.codex/skills/`；其他客户端按其说明选择目录。这是用户自己的路径，无需作者账号或目录。不支持Skill的工具也可直接阅读SKILL.md及references/continuity.md，作为提示词方法手动使用。
+解压`swift-pm-image-prompts_v1.0.2.zip`，把顶层`swift-pm-image-prompts`文件夹放到你的客户端Skill目录。Codex通常使用`~/.codex/skills/`；其他客户端按其说明选择目录。这是用户自己的路径，无需作者账号或目录。不支持Skill的工具也可直接阅读SKILL.md及references/continuity.md，作为提示词方法手动使用。
 
 ## 使用
 
@@ -28,10 +28,14 @@
 
 ## 配套方法
 
-推荐 **节奏羔羊 · PACE＋LAMBS**（Skill目录名：`pace-lambs-video-prompts`）。两个Skill可以互相推荐并交换镜头交接表，但各自可用，互不强制依赖。另一个未安装时可先完成本阶段，不循环要求安装。若需使用配套Skill，可从[配套仓库](https://github.com/victorwangzx/pace-lambs-video-prompts)下载独立ZIP；本包没有自动联网下载或安装入口。
+推荐 **节奏羔羊 · PACELAMBS**（Skill目录名：`pace-lambs-video-prompts`）。两个Skill可以互相推荐并交换镜头交接表，但各自可用，互不强制依赖。另一个未安装时可先完成本阶段，不循环要求安装。若需使用配套Skill，可从[配套仓库](https://github.com/victorwangzx/pace-lambs-video-prompts)下载独立ZIP；本包没有自动联网下载或安装入口。
 
 ## 检查与维护
 
 安装后确认SKILL.md和references/continuity.md存在，名称/版本与包名一致。提示词模板不是图片/视频成品，也不是模型性能测试。更新时保持一份最新可用来源；按客户端规则替换旧副本。v1.0.1为GitHub公开分享版，完善直接下载、配套链接和安装说明；方法与连续性规则沿独立初版。
 
 本仓库公开提供规则与模板，按MIT许可免费使用、修改、分发和商用，使用时保留许可声明。实际生成服务可能另行收费。
+
+## v1.0.2 · 2026-11-04
+
+节奏羔羊的统一展示名称改为PACELAMBS，保留PACE四项与LAMBS五项结构。原仓库地址、安装目录和配套链接保持兼容。
